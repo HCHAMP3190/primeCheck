@@ -47,7 +47,7 @@ useEffect(()=>{
         <div className='font-bold text-5xl text-blue-400'>CHECK IF NUMBER IS PRIME</div>
         <div className='my-4 font-bold text-2xl text-blue-400'>(Sieve of Eratsosthenes)</div>
         <div className='my-12'><input type='number' placeholder='Enter number...' id='input' value={number} onChange={handleOnChange} className=' border-4 border-white shadow-2xl shadow-blue-500 rounded-xl text-lg'></input></div>
-        <div><p className='border-2 border-green-500 rounded-lg font-bold text-5xl text-blue-400'>{result}</p></div>
+        <div><p className='m-4 border-2 border-green-500 rounded-lg font-bold text-5xl text-blue-400'>{result}</p></div>
         <div className='my-12 font-bold text-5xl text-blue-400'>PRIMES UPTO NUMBER {number}</div>
         <div className='flex-wrap overflow-scroll overflow-y-hidden border-4 w-screen rounded-lg border-blue-500 shadow-xl shadow-pink-500  font-medium text-base text-yellow-400 flex-1'>{primes}</div>
       </div>
